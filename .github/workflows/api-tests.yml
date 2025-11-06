@@ -22,4 +22,4 @@ jobs:
           node-version: "18"
 
       - name: Installation des librairies
-        run: npm Install
+        run: npm install

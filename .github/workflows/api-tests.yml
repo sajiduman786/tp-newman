@@ -38,7 +38,7 @@ jobs:
           -e "./postman/environnement.postman_environmentprof.json" \
           --iteration-data "./postman/iteration.json" \
           -r htmlextra \
-          --reporter-html-export "./reports/RapportNewman.html"
+          --reporter-htmlextra-export "./reports/RapportNewman.html"
       - name: upload HTML test report as artifact
         uses: actions/upload-artifact@v4
         with:
